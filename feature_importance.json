@@ -1,0 +1,37 @@
+{
+  "Random Forest Tuned": {
+    "R2": 0.8024,
+    "Top Features": [
+      {
+        "brand_encoded": 0.5225
+      },
+      {
+        "car_age": 0.2733
+      },
+      {
+        "km_per_year": 0.0622
+      },
+      {
+        "transmission_Manual": 0.0541
+      },
+      {
+        "fuel_Diesel": 0.0357
+      },
+      {
+        "km_driven": 0.0194
+      },
+      {
+        "log_km_driven": 0.0179
+      },
+      {
+        "seller_type_Individual": 0.0064
+      },
+      {
+        "owner_Second Owner": 0.0033
+      },
+      {
+        "fuel_Petrol": 0.0025
+      }
+    ]
+  }
+}

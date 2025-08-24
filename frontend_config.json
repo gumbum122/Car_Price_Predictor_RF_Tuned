@@ -1,0 +1,121 @@
+{
+  "categorical_features": {
+    "brand": [
+      "Ambassador",
+      "Audi",
+      "BMW",
+      "Chevrolet",
+      "Daewoo",
+      "Datsun",
+      "Fiat",
+      "Force",
+      "Ford",
+      "Honda",
+      "Hyundai",
+      "Isuzu",
+      "Jaguar",
+      "Jeep",
+      "Kia",
+      "Land",
+      "MG",
+      "Mahindra",
+      "Maruti",
+      "Mercedes-Benz",
+      "Mitsubishi",
+      "Nissan",
+      "OpelCorsa",
+      "Renault",
+      "Skoda",
+      "Tata",
+      "Toyota",
+      "Volkswagen",
+      "Volvo"
+    ],
+    "fuel": [
+      "Diesel",
+      "Electric",
+      "LPG",
+      "Petrol"
+    ],
+    "seller_type": [
+      "Individual",
+      "Trustmark Dealer"
+    ],
+    "transmission": [
+      "Manual"
+    ],
+    "owner": [
+      "Fourth & Above Owner",
+      "Second Owner",
+      "Test Drive Car",
+      "Third Owner"
+    ]
+  },
+  "numerical_features": {
+    "year": {
+      "min": 1992,
+      "max": 2020,
+      "current": 2024
+    },
+    "km_driven": {
+      "min": 1,
+      "max": 806599,
+      "average": 69250
+    }
+  },
+  "brand_mapping": {
+    "Land": 0,
+    "Volvo": 1,
+    "Mercedes-Benz": 2,
+    "BMW": 3,
+    "Audi": 4,
+    "Jaguar": 5,
+    "MG": 6,
+    "Jeep": 7,
+    "Isuzu": 8,
+    "Kia": 9,
+    "Mitsubishi": 10,
+    "Toyota": 11,
+    "Mahindra": 12,
+    "Ford": 13,
+    "Honda": 14,
+    "Skoda": 15,
+    "Volkswagen": 16,
+    "Nissan": 17,
+    "Hyundai": 18,
+    "Renault": 19,
+    "Force": 20,
+    "Maruti": 21,
+    "Datsun": 22,
+    "Fiat": 23,
+    "Tata": 24,
+    "Chevrolet": 25,
+    "Ambassador": 26,
+    "OpelCorsa": 27,
+    "Daewoo": 28
+  },
+  "feature_names": [
+    "km_driven",
+    "log_km_driven",
+    "brand_encoded",
+    "car_age",
+    "km_per_year",
+    "fuel_Diesel",
+    "fuel_Electric",
+    "fuel_LPG",
+    "fuel_Petrol",
+    "seller_type_Individual",
+    "seller_type_Trustmark Dealer",
+    "transmission_Manual",
+    "owner_Fourth & Above Owner",
+    "owner_Second Owner",
+    "owner_Test Drive Car",
+    "owner_Third Owner"
+  ],
+  "model_performance": {
+    "cv_r2": 0.6950181647200058,
+    "test_r2": 0.8024242789064182,
+    "rmse": 252281.05319918477
+  },
+  "champion_model": "Random Forest Tuned"
+}
